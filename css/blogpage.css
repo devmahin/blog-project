@@ -1,0 +1,46 @@
+.blog{
+    width: 100%;
+    height: 40vw;
+}
+.blog img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog-contants{
+    font-family: var(--font-2);
+    font-weight: 300;
+}
+.blog-contants h2{
+    text-align: center;
+}
+
+
+.blog-contants p{
+    text-align: justify;
+    margin: 10px 0px;
+    font-weight: 400;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.more-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personal_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 0px;
+}
+.social{
+    display: flex;
+    gap: 10px;
+}
+.social i{
+    font-size: 25px;
+}
