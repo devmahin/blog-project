@@ -24,8 +24,7 @@ function sendData (userNameval, data,count){
     if(data === count){
         swal("Welcome! " + userNameval,"Registetion Success full" , "success")
         setInterval(() => {
-            location.href = `index.html?username=${userNameval}`
-
+            location.href = `page.html?username=${userNameval}`
         }, 3000)
     }
 }
